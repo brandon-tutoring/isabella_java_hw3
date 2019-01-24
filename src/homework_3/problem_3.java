@@ -9,12 +9,12 @@ public class problem_3 {
 		String number_type = scanner.nextLine();
 		if(number_type == "binary");
 			Scanner s=new Scanner(System.in);  
-        			System.out.println("Enter a binary number:");
-        			String n=s.nextLine();
+        	System.out.println("Enter a binary number:");
+        	String n=s.nextLine();
       			System.out.println(Integer.parseInt(n,2));
-      	else if(number_type == "hexadecimal");
+      	else(number_type == "hexadecimal");
 			String digits = "0123456789ABCDEF";
-         			s = n.toUpperCase();
+         			String m = n.toUpperCase();
         			 int val = 0;
         			 for (int i = 0; i < n.length(); i++)
         		 	{
@@ -42,5 +42,10 @@ public class problem_3 {
 
 
 	}
+
+			private static int hex_to_decimal(String hexdec_num) {
+				// TODO Auto-generated method stub
+				return 0;
+			}
 
 }
